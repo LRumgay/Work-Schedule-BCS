@@ -8,16 +8,7 @@ const currentTimeInterval = setInterval(function () {
 
  
   
-var SubButton = document.getElementById("#SubButton")
-      
-    SubButton.onclick = SubButton;
 
-
-function saveData(){
-  var input = document.getElementById("#Wplanner");
-  localStorage.setItem("Wplanner", input.value);
-  var storedValue = localStorage.getItem("Wplanner");
-}
   
   
 
